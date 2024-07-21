@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #173B45;
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+#root {
+  display: grid;
+  grid-template:
+    "aside header" auto
+    "aside main" 1fr / 6.5rem 1fr;
+  background-color: #f8eded;
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    color: currentColor;
+  }
+}
