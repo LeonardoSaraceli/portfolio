@@ -1,0 +1,18 @@
+main {
+  display: grid;
+  grid-area: main;
+
+  h1,
+  h2,
+  h3 {
+    font-size: 3rem;
+  }
+
+  section {
+    padding: 4rem;
+  }
+
+  span b {
+    color: #ff8225;
+  }
+}
