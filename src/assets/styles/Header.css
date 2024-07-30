@@ -1,37 +1,61 @@
 header {
   display: grid;
-  grid-area: header;
-  padding: 2.5rem;
-  justify-content: right;
+  padding: 0.5rem 4rem;
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #f8ededeb;
-  backdrop-filter: blur(0.125rem);
+  background-color: rgba(255, 255, 255, 0.867);
+  backdrop-filter: blur(10px);
+
+  nav {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+  }
+
+  picture {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 0.5rem;
+  }
 
   ul {
     display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    list-style-type: none;
+    gap: 2rem;
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
+
+  #header-btns {
+    display: grid;
     grid-template-columns: repeat(2, max-content);
     gap: 2rem;
-    text-transform: uppercase;
+  }
 
-    span,
-    .fa {
-      cursor: pointer;
-    }
+  nav,
+  picture,
+  #header-btns {
+    align-items: center;
+  }
 
-    .fa {
-      width: 1.2rem;
-      height: 1.2rem;
-      transition: all 0.1s linear;
-    }
+  picture,
+  span,
+  button {
+    cursor: pointer;
+  }
 
-    .fa:hover {
-      transform: scale(1.1);
-    }
+  button {
+    background-color: transparent;
+    border: none;
+  }
 
-    span:hover {
-      text-decoration-line: line-through;
-    }
+  .header-icon {
+    width: 35px;
+    height: 35px;
   }
 }

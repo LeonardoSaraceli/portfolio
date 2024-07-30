@@ -5,28 +5,11 @@
 }
 
 html {
-  color: #173b45;
-  font-size: 1.125rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 100;
+  color: #101820;
+  font-family: 'DM Sans', sans-serif;
   scroll-behavior: smooth;
-  scroll-padding-top: 4rem;
-  scrollbar-width: thin;
-  scrollbar-color: #173b45 #f8eded;
 }
 
 #root {
   display: grid;
-  grid-template:
-    "aside header" auto
-    "aside main" 1fr / 6.5rem 1fr;
-  background-color: #f8eded;
-
-  ul {
-    list-style-type: none;
-  }
-
-  a {
-    color: currentColor;
-  }
 }

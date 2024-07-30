@@ -1,20 +1,17 @@
-import { Route, Routes } from "react-router-dom";
-import Header from "./Header";
-import Aside from "./Aside";
-import HomePage from "./HomePage";
+import About from './About'
+import Header from './Header'
+import Home from './Home'
 
 function App() {
   return (
     <>
       <Header />
 
-      <Aside />
+      <Home />
 
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
+      <About />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

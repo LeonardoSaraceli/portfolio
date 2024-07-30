@@ -1,57 +1,72 @@
 /* eslint-disable react/no-unescaped-entities */
-import icon from "../assets/images/icon.jpg";
-import "../assets/styles/About.css";
+import '../assets/styles/About.css'
+import css from '../assets/images/css.svg'
+import express from '../assets/images/express.svg'
+import git from '../assets/images/git.svg'
+import html from '../assets/images/html.svg'
+import javascript from '../assets/images/javascript.svg'
+import node from '../assets/images/node.svg'
+import postgresql from '../assets/images/postgresql.svg'
+import prisma from '../assets/images/prisma.svg'
+import react from '../assets/images/react.svg'
 
 export default function About() {
   return (
-    <section id="about">
-      <h1>About</h1>
-
-      <article>
-        <p>
-          <b>H</b>ello, my name is Leonardo and I love chess and games, so I
-          spend a lot of my time on the internet. Some of my developer friends
-          always recommended that I study programming, they thought it was
-          something I would master. I started creating some websites and
-          whenever I needed help, I called one of them. I found all those tiny
-          letters that generated something so complex magical and
-          incomprehensible.
-        </p>
+    <main id="about">
+      <section id="left-side">
+        <h1>ME IN A NUTSHELL</h1>
 
         <p>
-          <b>I</b> am the type of person who, when discovering something new
-          that attracts you, passes the whole day commenting on it and studying
-          it. So, after so much desire, I managed to enter this environment that
-          always made me want to. I had dozens of difficulties, but I realized
-          that it was only through them that I was able to learn more and
-          improve.
+          I am an extrovert who loves chess and computers. When programming, I
+          always seek to deliver the best possible experience and visuals to the
+          user. Recently graduated from the Boolean bootcamp, I learned the
+          essentials for creating a web application in its entirety. I've had
+          excellent teamwork experiences and continue to learn more and more
+          every time I meet a new developer.
         </p>
+      </section>
 
-        <p>
-          <b>W</b>orked with some developers through the intensive bootcamp I
-          graduated from: Boolean; Those were great experiences that showed me
-          the difference between working alone and with a team, we don't always
-          have to do everything on our own. I am full of desire to grow more and
-          today I am looking for a place where I can add value, achieve goals
-          and learn.
-        </p>
-      </article>
+      <section id="right-side">
+        <h1>TECH STACK</h1>
 
-      <figure>
-        <span>
-          {"<"}
-          <b>img</b>
-          {">"}
-        </span>
+        <ul>
+          <li>
+            <img src={javascript} alt="Javascript icon" />
+          </li>
 
-        <img src={icon} alt="Profile icon" />
+          <li>
+            <img src={react} alt="React icon" />
+          </li>
 
-        <span>
-          {"</"}
-          <b>img</b>
-          {">"}
-        </span>
-      </figure>
-    </section>
-  );
+          <li>
+            <img src={css} alt="CSS icon" />
+          </li>
+
+          <li>
+            <img src={prisma} alt="Prisma icon" />
+          </li>
+
+          <li>
+            <img src={git} alt="Git icon" />
+          </li>
+
+          <li>
+            <img src={postgresql} alt="PostgreSQL icon" />
+          </li>
+
+          <li>
+            <img src={html} alt="HTML icon" />
+          </li>
+
+          <li>
+            <img src={node} alt="Node icon" />
+          </li>
+
+          <li>
+            <img src={express} alt="Express icon" />
+          </li>
+        </ul>
+      </section>
+    </main>
+  )
 }
