@@ -1,0 +1,74 @@
+footer {
+  display: grid;
+  grid-template-columns: 60% 40%;
+
+  h1,
+  h2,
+  span {
+    font-size: 56px;
+  }
+
+  a {
+    text-decoration: none;
+    color: currentColor;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  #footer-left-side {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #101820;
+    color: #fee715;
+    padding: 4rem;
+
+    #follow-me {
+      display: grid;
+      grid-template-rows: repeat(2, max-content);
+      text-align: left;
+
+      span {
+        color: white;
+      }
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, max-content);
+      justify-content: center;
+      gap: 1.5rem;
+
+      a {
+        display: grid;
+      }
+
+      li:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  #footer-right-side {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    background-color: #fee715;
+    gap: 2rem;
+    justify-content: center;
+    padding: 4rem 0;
+
+    div {
+      display: grid;
+      grid-template-rows: repeat(2, max-content);
+    }
+
+    #lodi-logo:hover {
+      #final-lodi-logo {
+        text-decoration: underline;
+      }
+    }
+  }
+}

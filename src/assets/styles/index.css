@@ -8,6 +8,9 @@ html {
   color: #101820;
   font-family: 'DM Sans', sans-serif;
   scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  scrollbar-width: thin;
+  scrollbar-color: #101820 #fee715;
 }
 
 #root {

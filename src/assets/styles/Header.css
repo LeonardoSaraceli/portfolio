@@ -1,40 +1,69 @@
 header {
   display: grid;
-  padding: 0.5rem 4rem;
+  grid-template-columns: 60% 40%;
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.867);
-  backdrop-filter: blur(10px);
+
+  nav,
+  #header-btns {
+    padding: 0.5rem 4rem;
+  }
+
+  nav.scrolled {
+    background-color: #101820a9;
+    backdrop-filter: blur(10px);
+  }
 
   nav {
     display: grid;
-    grid-template-columns: auto 1fr auto;
-  }
+    grid-template-columns: auto 1fr;
+    background-color: #101820;
+    color: #fee715;
 
-  picture {
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    gap: 0.5rem;
-  }
+    picture {
+      display: grid;
+      grid-template-columns: repeat(2, max-content);
+      gap: 0.5rem;
+    }
 
-  ul {
-    display: grid;
-    grid-template-columns: repeat(3, max-content);
-    justify-content: center;
-    list-style-type: none;
-    gap: 2rem;
-  }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, max-content);
+      justify-content: center;
+      list-style-type: none;
+      gap: 2rem;
+    }
 
-  a {
-    color: currentColor;
-    text-decoration: none;
+    a {
+      color: currentColor;
+      text-decoration: none;
+    }
+
+    picture:hover,
+    a:hover {
+      color: white;
+    }
   }
 
   #header-btns {
     display: grid;
-    grid-template-columns: repeat(2, max-content);
-    gap: 2rem;
+    grid-template-columns: 1fr auto;
+    background-color: #fee715;
+
+    span {
+      justify-self: center;
+    }
+
+    button:hover,
+    span:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  #header-btns.scrolled {
+    background-color: #fee715a8;
+    backdrop-filter: blur(10px);
   }
 
   nav,
