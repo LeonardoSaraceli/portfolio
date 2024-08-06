@@ -9,25 +9,21 @@ import node from '../assets/images/node.svg'
 import postgresql from '../assets/images/postgresql.svg'
 import prisma from '../assets/images/prisma.svg'
 import react from '../assets/images/react.svg'
+import { useTranslation } from 'react-i18next'
 
 export default function About() {
+  const { t } = useTranslation()
+
   return (
     <main id="about">
       <section id="left-side">
-        <h1 className="left-hidden">ME IN A NUTSHELL</h1>
+        <h1 className="left-hidden">{t('me-in-a-nutshell')}</h1>
 
-        <p className="left-hidden">
-          I am an extrovert who loves chess and computers. When programming, I
-          always seek to deliver the best possible experience and visuals to the
-          user. Recently graduated from the Boolean bootcamp, I learned the
-          essentials for creating a web application in its entirety. I've had
-          excellent teamwork experiences and continue to learn more and more
-          every time I meet a new developer.
-        </p>
+        <p className="left-hidden">{t('about-left-text')}</p>
       </section>
 
       <section id="right-side">
-        <h1 className="right-hidden">TECH STACK</h1>
+        <h1 className="right-hidden">{t('tech-stack')}</h1>
 
         <ul className="right-hidden">
           <li>

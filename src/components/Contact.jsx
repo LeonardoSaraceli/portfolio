@@ -2,19 +2,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../assets/styles/Contact.css'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
+  const { t } = useTranslation()
+
   return (
     <main id="contact">
       <section id="left-side">
-        <h1 className="left-hidden">GET IN TOUCH</h1>
+        <h1 className="left-hidden">{t('get-in-touch')}</h1>
 
         <form className="left-hidden" onSubmit={(e) => e.preventDefault()}>
           <div id="name-email-inputs">
             <input
               type="text"
               name="name"
-              placeholder="NAME"
+              placeholder={t('name')}
               autoComplete="name"
             />
 
@@ -26,18 +29,18 @@ export default function Contact() {
             />
           </div>
 
-          <textarea name="message" placeholder="MESSAGE"></textarea>
+          <textarea name="message" placeholder={t('message')}></textarea>
 
           <div id="dividor-btn">
             <div id="dividor"></div>
 
-            <button type="submit">SUBMIT</button>
+            <button type="submit">{t('submit')}</button>
           </div>
         </form>
       </section>
 
       <section id="right-side">
-        <h1 className="right-hidden">CONTACT INFO</h1>
+        <h1 className="right-hidden">{t('contact-info')}</h1>
 
         <ul className="right-hidden">
           <li>

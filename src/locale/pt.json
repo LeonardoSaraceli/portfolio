@@ -1,0 +1,23 @@
+{
+    "translation": {
+        "home": "Início",
+        "about": "Sobre",
+        "contact": "Contato",
+        "resume": "Currículo",
+        "full-stack": "FULL-STACK",
+        "web-developer": "DESENVOLVEDOR WEB",
+        "home-left-text": "Você tem alguma ideia? Então estarei comprometido em criá-la.",
+        "based-in": "Resido em",
+        "me-in-a-nutshell": "UM POUCO SOBRE MIM",
+        "about-left-text": "Sou um extrovertido que adora xadrez e computadores. Quando programo, procuro sempre entregar a melhor experiência e visual possíveis ao usuário. Recém-formado no bootcamp Boolean, aprendi o básico para criar uma aplicação web na sua totalidade. Tive excelentes experiências de trabalho em equipe e continuo aprendendo cada vez mais sempre que conheço um novo desenvolvedor.",
+        "tech-stack": "TECNOLOGIAS",
+        "get-in-touch": "DIGA OLÁ",
+        "name": "NOME",
+        "message": "MENSAGEM",
+        "submit": "ENVIAR",
+        "contact-info": "CONTATO",
+        "follow": "SIGA-",
+        "designed-and": "PROJETADO E",
+        "developed-by": "CRIADO POR"
+    }
+}

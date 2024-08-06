@@ -1,0 +1,23 @@
+{
+    "translation": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact",
+        "resume": "Resume",
+        "full-stack": "FULL-STACK",
+        "web-developer": "WEB DEVELOPER",
+        "home-left-text": "Do you have any ideas? Then I will be committed to creating it.",
+        "based-in": "Based in",
+        "me-in-a-nutshell": "ME IN A NUTSHELL",
+        "about-left-text": "I am an extrovert who loves chess and computers. When programming, I always seek to deliver the best possible experience and visuals to the user. Recently graduated from the Boolean bootcamp, I learned the essentials for creating a web application in its entirety. I've had excellent teamwork experiences and continue to learn more and more every time I meet a new developer.",
+        "tech-stack": "TECH STACK",
+        "get-in-touch": "GET IN TOUCH",
+        "name": "NAME",
+        "message": "MESSAGE",
+        "submit": "SUBMIT",
+        "contact-info": "CONTACT INFO",
+        "follow": "FOLLOW",
+        "designed-and": "DESIGNED AND",
+        "developed-by": "DEVELOPED BY"
+    }
+}

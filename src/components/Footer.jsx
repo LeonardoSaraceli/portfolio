@@ -5,13 +5,16 @@ import {
   faInstagram,
   faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons'
+import { useTranslation } from 'react-i18next'
 
 export default function Footer() {
+  const { t } = useTranslation()
+
   return (
     <footer>
       <nav id="footer-left-side">
         <div id="follow-me" className="left-hidden">
-          <h1>FOLLOW</h1>
+          <h1>{t('follow')}</h1>
 
           <h2>ME</h2>
         </div>
@@ -39,9 +42,9 @@ export default function Footer() {
 
       <section id="footer-right-side">
         <div className="right-hidden">
-          <h1>DESIGNED AND</h1>
+          <h1>{t('designed-and')}</h1>
 
-          <h2>DEVELOPED BY</h2>
+          <h2>{t('developed-by')}</h2>
         </div>
 
         <a href="#home" className="right-hidden">

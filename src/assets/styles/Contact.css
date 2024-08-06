@@ -105,6 +105,10 @@
     grid-template-rows: repeat(2, max-content);
     background-color: #fee715;
 
+    h1 {
+      text-align: right;
+    }
+
     ul {
       display: grid;
       grid-template-rows: repeat(2, max-content);
