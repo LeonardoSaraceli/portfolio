@@ -9,21 +9,21 @@ export default function Home() {
       </picture>
 
       <section id="left-side">
-        <h1>FULL-STACK</h1>
+        <h1 className="left-hidden">FULL-STACK</h1>
 
-        <h2>
-          WEB DEVELOPER<span>.</span>
-        </h2>
+        <h2 className="left-hidden">WEB DEVELOPER</h2>
 
-        <p>Do you have any ideas? Then I will be committed to creating it.</p>
+        <p className="left-hidden">
+          Do you have any ideas? Then I will be committed to creating it.
+        </p>
       </section>
 
       <section id="right-side">
-        <h1>LEONARDO</h1>
+        <h1 className="right-hidden">LEONARDO</h1>
 
-        <h2>LODI.</h2>
+        <h2 className="right-hidden">LODI</h2>
 
-        <p>
+        <p className="right-hidden">
           Based in Porto, <span>Portugal</span> (UTC+1)
         </p>
       </section>

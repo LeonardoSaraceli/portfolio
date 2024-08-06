@@ -1,7 +1,7 @@
-import ukFlag from '../assets/images/uk-flag.svg'
-import lightTheme from '../assets/images/light-theme.svg'
 import '../assets/styles/Header.css'
 import { useEffect } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFileArrowDown, faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
   useEffect(() => {
@@ -25,30 +25,29 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <picture>
-          <img src={ukFlag} alt="UK flag" className="header-icon" />
-          <p>EN</p>
-        </picture>
-
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#contact">CONTACT</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
 
       <div id="header-btns">
-        <span>RESUME</span>
+        <picture>
+          <FontAwesomeIcon icon={faFileArrowDown} className="header-icon" />
+          <span>Resume</span>
+        </picture>
 
-        <button>
-          <img src={lightTheme} alt="Sun icon" className="header-icon" />
-        </button>
+        <picture>
+          <FontAwesomeIcon icon={faGlobe} className="header-icon" />
+          <span>En</span>
+        </picture>
       </div>
     </header>
   )

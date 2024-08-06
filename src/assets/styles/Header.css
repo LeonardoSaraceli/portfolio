@@ -7,7 +7,7 @@ header {
 
   nav,
   #header-btns {
-    padding: 0.5rem 4rem;
+    padding: 1rem 4rem;
   }
 
   nav.scrolled {
@@ -17,15 +17,8 @@ header {
 
   nav {
     display: grid;
-    grid-template-columns: auto 1fr;
     background-color: #101820;
     color: #fee715;
-
-    picture {
-      display: grid;
-      grid-template-columns: repeat(2, max-content);
-      gap: 0.5rem;
-    }
 
     ul {
       display: grid;
@@ -35,29 +28,36 @@ header {
       gap: 2rem;
     }
 
+    li {
+      transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
     a {
       color: currentColor;
       text-decoration: none;
     }
 
-    picture:hover,
-    a:hover {
+    li:hover {
       color: white;
     }
   }
 
   #header-btns {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: repeat(2, max-content);
     background-color: #fee715;
+    justify-content: center;
+    gap: 2rem;
 
-    span {
-      justify-self: center;
+    picture {
+      display: grid;
+      grid-template-columns: repeat(2, max-content);
+      gap: 0.5rem;
+      transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    button:hover,
-    span:hover {
-      transform: scale(1.1);
+    picture:hover {
+      color: #422057FF;
     }
   }
 
@@ -78,13 +78,8 @@ header {
     cursor: pointer;
   }
 
-  button {
-    background-color: transparent;
-    border: none;
-  }
-
   .header-icon {
-    width: 35px;
-    height: 35px;
+    width: 27.2px;
+    height: 27.2px;
   }
 }

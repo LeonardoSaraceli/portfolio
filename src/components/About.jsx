@@ -14,9 +14,9 @@ export default function About() {
   return (
     <main id="about">
       <section id="left-side">
-        <h1>ME IN A NUTSHELL</h1>
+        <h1 className="left-hidden">ME IN A NUTSHELL</h1>
 
-        <p>
+        <p className="left-hidden">
           I am an extrovert who loves chess and computers. When programming, I
           always seek to deliver the best possible experience and visuals to the
           user. Recently graduated from the Boolean bootcamp, I learned the
@@ -27,9 +27,9 @@ export default function About() {
       </section>
 
       <section id="right-side">
-        <h1>TECH STACK</h1>
+        <h1 className="right-hidden">TECH STACK</h1>
 
-        <ul>
+        <ul className="right-hidden">
           <li>
             <img src={javascript} alt="Javascript icon" />
           </li>

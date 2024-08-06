@@ -12,7 +12,7 @@
     pointer-events: none;
 
     img {
-      max-width: 280px;
+      max-width: 260px;
       height: auto;
     }
   }
@@ -43,13 +43,9 @@
       color: #fee715;
     }
 
-    span,
-    p {
-      color: white;
-    }
-
     p {
       width: 450px;
+      color: white;
     }
   }
 

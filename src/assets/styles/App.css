@@ -1,0 +1,19 @@
+.left-hidden,
+.right-hidden {
+  opacity: 0;
+  transition: all 1.4s;
+}
+
+.left-hidden {
+  transform: translateX(-2.5rem);
+}
+
+.right-hidden {
+  transform: translateX(2.5rem);
+}
+
+.left-hidden.show,
+.right-hidden.show {
+  opacity: 1;
+  transform: translateX(0);
+}

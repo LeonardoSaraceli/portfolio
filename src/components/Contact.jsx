@@ -1,14 +1,15 @@
-import email from '../assets/images/email.svg'
-import phone from '../assets/images/phone.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../assets/styles/Contact.css'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 export default function Contact() {
   return (
     <main id="contact">
       <section id="left-side">
-        <h1>GET IN TOUCH</h1>
+        <h1 className="left-hidden">GET IN TOUCH</h1>
 
-        <form onSubmit={(e) => e.preventDefault()}>
+        <form className="left-hidden" onSubmit={(e) => e.preventDefault()}>
           <div id="name-email-inputs">
             <input
               type="text"
@@ -36,25 +37,22 @@ export default function Contact() {
       </section>
 
       <section id="right-side">
-        <h1>CONTACT INFO</h1>
+        <h1 className="right-hidden">CONTACT INFO</h1>
 
-        <ul>
+        <ul className="right-hidden">
           <li>
-            <img src={email} alt="E-mail icon" />
+            <a href="mailto:leonardolodi09@gmail.com" target="_blank">
+              <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
 
-            <p>
-              <a href="mailto:leonardolodi09@gmail.com">
-                leonardolodi09@gmail.com
-              </a>
-            </p>
+              <span>leonardolodi09@gmail.com</span>
+            </a>
           </li>
 
           <li>
-            <img src={phone} alt="Phone icon" />
-
-            <p>
-              <a href="tel:+351914137935">+351 914-137-935</a>
-            </p>
+            <a href="tel:+351914137935" target="_blank">
+              <FontAwesomeIcon icon={faPhone} className="contact-icon" />
+              <span>+351 914-137-935</span>
+            </a>
           </li>
         </ul>
       </section>
