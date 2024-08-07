@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import About from './About'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -20,7 +20,7 @@ function App() {
     const elementsToObserve = document.querySelectorAll(
       '.left-hidden, .right-hidden'
     )
-    
+
     elementsToObserve.forEach((el) => observer.observe(el))
 
     return () => {

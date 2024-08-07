@@ -16,7 +16,7 @@ export default function Footer() {
         <div id="follow-me" className="left-hidden">
           <h1>{t('follow')}</h1>
 
-          <h2>ME</h2>
+          <h2>{t('me')}</h2>
         </div>
 
         <ul className="left-hidden">

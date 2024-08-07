@@ -1,10 +1,5 @@
 #contact {
   display: grid;
-  grid-template-columns: 60% 40%;
-
-  h1 {
-    font-size: 56px;
-  }
 
   ul {
     list-style: none;
@@ -18,11 +13,9 @@
   #left-side,
   #right-side {
     display: grid;
-    gap: 2rem;
     grid-template-rows: repeat(2, max-content);
     align-content: center;
     justify-content: center;
-    padding: 8rem 4rem;
   }
 
   #left-side {
@@ -35,60 +28,44 @@
     form {
       display: grid;
       grid-template-rows: repeat(3, max-content);
-      gap: 1.5rem;
 
       textarea::placeholder,
       input::placeholder {
         font-family: 'DM Sans', sans-serif;
         color: #101820;
-        font-weight: 100;
+        font-weight: 400;
+      }
+
+      input,
+      textarea,
+      button {
+        color: #101820;
+        border: none;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        background-color: white;
       }
 
       #name-email-inputs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
-
-        input {
-          min-width: 300px;
-          min-height: 50px;
-          padding: 0 1rem;
-          border: none;
-          font-family: 'DM Sans', sans-serif;
-          color: #101820;
-          font-weight: 100;
-        }
       }
 
       textarea {
-        min-width: 300px;
-        min-height: 100px;
-        padding: 1rem;
-        color: #101820;
-        border: none;
         resize: none;
-        font-family: 'DM Sans', sans-serif;
-        color: #101820;
-        font-weight: 100;
       }
 
       #dividor-btn {
         display: grid;
         grid-template-columns: 1fr auto;
-        gap: 1.5rem;
         align-items: center;
 
         #dividor {
-          height: 25px;
           background-color: #fee715;
         }
 
         button {
           width: max-content;
-          min-width: 150px;
-          min-height: 50px;
-          background-color: white;
-          border: none;
           cursor: pointer;
         }
       }
@@ -112,7 +89,6 @@
     ul {
       display: grid;
       grid-template-rows: repeat(2, max-content);
-      gap: 2rem;
 
       li {
         display: grid;
@@ -121,17 +97,395 @@
           display: grid;
           grid-template-columns: repeat(2, max-content);
           align-items: center;
-          gap: 0.5rem;
           transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
-
-          .contact-icon {
-            width: 27.2px;
-            height: 27.2px;
-          }
         }
 
         a:hover {
           color: #422057ff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #contact {
+    grid-template-rows: repeat(2, 1fr);
+
+    h1 {
+      font-size: 24px;
+    }
+
+    #left-side,
+    #right-side {
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    #left-side {
+      form {
+        gap: 1rem;
+
+        input,
+        textarea,
+        button {
+          border-radius: 0.25rem;
+        }
+
+        #name-email-inputs {
+          gap: 1rem;
+
+          input {
+            width: 120px;
+            height: 35px;
+            padding: 0 0.5rem;
+          }
+        }
+
+        textarea {
+          width: 100%;
+          height: 70px;
+          padding: 0.5rem;
+        }
+
+        #dividor-btn {
+          gap: 1rem;
+
+          #dividor {
+            height: 17.25px;
+          }
+
+          button {
+            width: 60px;
+            height: 35px;
+          }
+        }
+      }
+    }
+
+    #right-side {
+      ul {
+        gap: 1rem;
+
+        li {
+          a {
+            gap: 0.5rem;
+
+            .contact-icon {
+              width: 20.8px;
+              height: 20.8px;
+            }
+
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 379px) and (min-width: 321px) {
+  #contact {
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    #left-side,
+    #right-side {
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    #left-side {
+      form {
+        gap: 1rem;
+
+        input,
+        textarea,
+        button {
+          border-radius: 0.25rem;
+        }
+
+        #name-email-inputs {
+          gap: 1rem;
+
+          input {
+            width: 120px;
+            height: 35px;
+            padding: 0 0.5rem;
+          }
+        }
+
+        textarea {
+          width: 100%;
+          height: 70px;
+          padding: 0.5rem;
+        }
+
+        #dividor-btn {
+          gap: 1rem;
+
+          #dividor {
+            height: 17.25px;
+          }
+
+          button {
+            width: 60px;
+            height: 35px;
+          }
+        }
+      }
+    }
+
+    #right-side {
+      ul {
+        gap: 1rem;
+
+        li {
+          a {
+            gap: 0.5rem;
+
+            .contact-icon {
+              width: 20.8px;
+              height: 20.8px;
+            }
+
+            span {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 380px) {
+  #contact {
+    height: 100vh;
+    grid-template-rows: repeat(2, 1fr);
+
+    h1 {
+      font-size: 32px;
+    }
+
+    #left-side,
+    #right-side {
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    #left-side {
+      form {
+        gap: 1rem;
+
+        input,
+        textarea,
+        button {
+          border-radius: 0.25rem;
+        }
+
+        #name-email-inputs {
+          gap: 1rem;
+
+          input {
+            width: 160px;
+            height: 35px;
+            padding: 0 0.5rem;
+          }
+        }
+
+        textarea {
+          width: 100%;
+          height: 70px;
+          padding: 0.5rem;
+        }
+
+        #dividor-btn {
+          gap: 1rem;
+
+          #dividor {
+            height: 17.25px;
+          }
+
+          button {
+            width: 80px;
+            height: 35px;
+          }
+        }
+      }
+    }
+
+    #right-side {
+      ul {
+        gap: 1rem;
+
+        li {
+          a {
+            gap: 0.5rem;
+
+            .contact-icon {
+              width: 23.2px;
+              height: 23.2px;
+            }
+
+            span {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  #contact {
+    height: 100vh;
+    grid-template-rows: repeat(2, 1fr);
+
+    h1 {
+      font-size: 32px;
+    }
+
+    #left-side,
+    #right-side {
+      gap: 1rem;
+      padding: 1rem;
+    }
+
+    #left-side {
+      form {
+        gap: 1rem;
+
+        input,
+        textarea,
+        button {
+          border-radius: 0.25rem;
+        }
+
+        #name-email-inputs {
+          gap: 1rem;
+
+          input {
+            width: 160px;
+            height: 35px;
+            padding: 0 0.5rem;
+          }
+        }
+
+        textarea {
+          width: 100%;
+          height: 70px;
+          padding: 0.5rem;
+        }
+
+        #dividor-btn {
+          gap: 1rem;
+
+          #dividor {
+            height: 17.25px;
+          }
+
+          button {
+            width: 80px;
+            height: 35px;
+          }
+        }
+      }
+    }
+
+    #right-side {
+      ul {
+        gap: 1rem;
+
+        li {
+          a {
+            gap: 0.5rem;
+
+            .contact-icon {
+              width: 23.2px;
+              height: 23.2px;
+            }
+
+            span {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #contact {
+    grid-template-columns: 60% 40%;
+
+    h1 {
+      font-size: 56px;
+    }
+
+    #left-side,
+    #right-side {
+      gap: 2rem;
+      padding: 8rem 4rem;
+    }
+
+    #left-side {
+      form {
+        gap: 1.5rem;
+
+        #name-email-inputs {
+          gap: 1.5rem;
+
+          input {
+            min-width: 300px;
+            min-height: 50px;
+            padding: 0 1rem;
+          }
+        }
+
+        textarea {
+          min-width: 300px;
+          min-height: 100px;
+          padding: 1rem;
+        }
+
+        #dividor-btn {
+          gap: 1.5rem;
+
+          #dividor {
+            height: 25px;
+          }
+
+          button {
+            min-width: 150px;
+            min-height: 50px;
+          }
+        }
+      }
+    }
+
+    #right-side {
+      ul {
+        gap: 2rem;
+
+        li {
+          a {
+            gap: 0.5rem;
+            transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+
+            .contact-icon {
+              width: 27.2px;
+              height: 27.2px;
+            }
+          }
         }
       }
     }

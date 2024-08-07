@@ -1,29 +1,15 @@
 #home {
   display: grid;
-  grid-template-columns: 60% 40%;
   position: relative;
   height: 100vh;
 
   picture {
     align-self: center;
     position: absolute;
-    left: 60%;
-    transform: translateX(-50%);
     pointer-events: none;
-
-    img {
-      max-width: 260px;
-      height: auto;
-    }
-  }
-
-  h1,
-  h2 {
-    font-size: 56px;
   }
 
   p {
-    font-size: 21px;
     line-height: 180%;
   }
 
@@ -44,7 +30,6 @@
     }
 
     p {
-      width: 450px;
       color: white;
     }
   }
@@ -55,6 +40,167 @@
 
     span {
       font-weight: bold;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #home {
+    grid-template-rows: repeat(2, 1fr);
+
+    picture {
+      display: none;
+    }
+
+    h1,
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    #left-side {
+      p {
+        width: 240px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 379px) and (min-width: 321px) {
+  #home {
+    grid-template-rows: repeat(2, 1fr);
+
+    picture {
+      justify-self: center;
+
+      img {
+        max-width: 5rem;
+      }
+    }
+
+    h1,
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    #left-side {
+      padding: 1rem;
+
+      p {
+        width: 260px;
+      }
+    }
+
+    #right-side {
+      padding: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 380px) {
+  #home {
+    grid-template-rows: repeat(2, 1fr);
+
+    picture {
+      justify-self: center;
+
+      img {
+        max-width: 5rem;
+      }
+    }
+
+    h1,
+    h2 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    #left-side {
+      padding: 1rem;
+
+      p {
+        width: 300px;
+      }
+    }
+
+    #right-side {
+      padding: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  #home {
+    grid-template-rows: repeat(2, 1fr);
+
+    picture {
+      justify-self: center;
+
+      img {
+        max-width: 5rem;
+      }
+    }
+
+    h1,
+    h2 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    #left-side {
+      padding: 1rem;
+
+      p {
+        width: 300px;
+      }
+    }
+
+    #right-side {
+      padding: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #home {
+    grid-template-columns: 60% 40%;
+
+    picture {
+      left: 60%;
+      transform: translateX(-50%);
+      pointer-events: none;
+
+      img {
+        max-width: 12rem;
+      }
+    }
+
+    h1,
+    h2 {
+      font-size: 56px;
+    }
+
+    p {
+      font-size: 21px;
+    }
+
+    #left-side {
+      p {
+        width: 450px;
+      }
     }
   }
 }

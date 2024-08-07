@@ -54,6 +54,7 @@ export default function Contact() {
                 name="from_name"
                 placeholder={t('name')}
                 autoComplete="name"
+                required
               />
 
               <input
@@ -61,10 +62,15 @@ export default function Contact() {
                 name="from_email"
                 placeholder="E-MAIL"
                 autoComplete="email"
+                required
               />
             </div>
 
-            <textarea name="message" placeholder={t('message')}></textarea>
+            <textarea
+              name="message"
+              placeholder={t('message')}
+              required
+            ></textarea>
 
             <div id="dividor-btn">
               <div id="dividor"></div>

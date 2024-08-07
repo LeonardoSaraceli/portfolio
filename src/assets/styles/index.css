@@ -17,3 +17,13 @@ html {
 #root {
   display: grid;
 }
+
+@media screen and (max-width: 1023px) {
+  #root {
+    background-color: #101820;
+  }
+
+  html {
+    scrollbar-color: #101820 transparent;
+  }
+}

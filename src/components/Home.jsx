@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
-import profile from '../assets/images/profile.png'
+import profileDesktop from '../assets/images/profile-desktop.png'
+import profileMobile from '../assets/images/profile-mobile.png'
 import '../assets/styles/Home.css'
 
 export default function Home() {
@@ -11,7 +12,10 @@ export default function Home() {
   return (
     <main id="home">
       <picture id="profile-icon">
-        <img src={profile} alt="Profile picture" />
+        <img
+          src={window.innerWidth >= 1024 ? profileDesktop : profileMobile}
+          alt="Profile picture"
+        />
       </picture>
 
       <section id="left-side">

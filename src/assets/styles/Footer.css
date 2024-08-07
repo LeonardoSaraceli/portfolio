@@ -1,12 +1,5 @@
 footer {
   display: grid;
-  grid-template-columns: 60% 40%;
-
-  h1,
-  h2,
-  span {
-    font-size: 56px;
-  }
 
   a {
     text-decoration: none;
@@ -24,7 +17,6 @@ footer {
     align-items: center;
     background-color: #101820;
     color: #fee715;
-    padding: 4rem;
 
     #follow-me {
       display: grid;
@@ -36,11 +28,8 @@ footer {
       display: grid;
       grid-template-columns: repeat(3, max-content);
       justify-content: center;
-      gap: 2rem;
 
       .footer-icon {
-        width: 50px;
-        height: 50px;
         transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
       }
 
@@ -58,9 +47,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, max-content);
     background-color: #fee715;
-    gap: 2rem;
     justify-content: center;
-    padding: 4rem 0;
 
     div {
       display: grid;
@@ -68,7 +55,145 @@ footer {
     }
 
     #lodi-logo:hover {
-      color: #422057FF;
+      color: #422057ff;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  footer {
+    h1,
+    h2,
+    span {
+      font-size: 24px;
+    }
+
+    #footer-left-side {
+      padding: 1rem;
+
+      ul {
+        gap: 0.5rem;
+
+        .footer-icon {
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+
+    #footer-right-side {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 379px) and (min-width: 321px) {
+  footer {
+    h1,
+    h2,
+    span {
+      font-size: 28px;
+    }
+
+    #footer-left-side {
+      padding: 1rem;
+
+      ul {
+        gap: 0.5rem;
+
+        .footer-icon {
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+
+    #footer-right-side {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 380px) {
+  footer {
+    h1,
+    h2,
+    span {
+      font-size: 32px;
+    }
+
+    #footer-left-side {
+      padding: 1rem;
+
+      ul {
+        gap: 1rem;
+
+        .footer-icon {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+
+    #footer-right-side {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  footer {
+    h1,
+    h2,
+    span {
+      font-size: 32px;
+    }
+
+    #footer-left-side {
+      padding: 2rem;
+
+      ul {
+        gap: 1rem;
+
+        .footer-icon {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+
+    #footer-right-side {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    grid-template-columns: 60% 40%;
+
+    h1,
+    h2,
+    span {
+      font-size: 56px;
+    }
+
+    #footer-left-side {
+      padding: 4rem;
+
+      ul {
+        gap: 2rem;
+
+        .footer-icon {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+
+    #footer-right-side {
+      gap: 2rem;
+      padding: 4rem 0;
     }
   }
 }
