@@ -1,0 +1,37 @@
+article {
+  display: grid;
+  grid-template-rows: repeat(2, max-content);
+  gap: 0.5rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+
+  div {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+    h1 {
+      font-size: 28px;
+    }
+
+    #x-mark {
+      color: currentColor;
+      cursor: pointer;
+    }
+  }
+}
+
+#true {
+  background-color: #31473A;
+  color: #EDF4F2;
+}
+
+#false {
+  background-color: #990011;
+  color: #FCF6F5;
+}

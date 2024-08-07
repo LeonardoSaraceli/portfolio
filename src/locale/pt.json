@@ -18,6 +18,10 @@
         "contact-info": "CONTATO",
         "follow": "SIGA-",
         "designed-and": "PROJETADO E",
-        "developed-by": "CRIADO POR"
+        "developed-by": "CRIADO POR",
+        "success": "Sucesso",
+        "fail": "Erro",
+        "message-sent": "Sua mensagem foi enviada",
+        "message-not-sent": "Algo deu errado"
     }
 }

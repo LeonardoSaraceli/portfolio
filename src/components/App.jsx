@@ -20,6 +20,7 @@ function App() {
     const elementsToObserve = document.querySelectorAll(
       '.left-hidden, .right-hidden'
     )
+    
     elementsToObserve.forEach((el) => observer.observe(el))
 
     return () => {

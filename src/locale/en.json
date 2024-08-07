@@ -18,6 +18,10 @@
         "contact-info": "CONTACT INFO",
         "follow": "FOLLOW",
         "designed-and": "DESIGNED AND",
-        "developed-by": "DEVELOPED BY"
+        "developed-by": "DEVELOPED BY",
+        "success": "Success",
+        "fail": "Fail",
+        "message-sent": "Your message was sent",
+        "message-not-sent": "Something went wrong"
     }
 }
