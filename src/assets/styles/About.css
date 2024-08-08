@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 320px) {
   #about {
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, max-content);
 
     h1 {
       font-size: 24px;
@@ -86,8 +86,7 @@
 
 @media screen and (max-width: 379px) and (min-width: 321px) {
   #about {
-    height: 100vh;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, max-content);
 
     h1 {
       font-size: 28px;
@@ -110,8 +109,8 @@
       gap: 1rem;
 
       ul {
-        row-gap: 0.5rem;
-        column-gap: 3rem;
+        row-gap: 2rem;
+        column-gap: 4rem;
 
         img {
           width: 40px;
@@ -124,8 +123,7 @@
 
 @media screen and (max-width: 767px) and (min-width: 380px) {
   #about {
-    height: 100vh;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, max-content);
 
     h1 {
       font-size: 32px;
@@ -148,12 +146,12 @@
       gap: 1rem;
 
       ul {
-        row-gap: 0.5rem;
+        row-gap: 2rem;
         column-gap: 4rem;
 
         img {
-          width: 40px;
-          height: 40px;
+          width: 45px;
+          height: 45px;
         }
       }
     }
@@ -162,8 +160,7 @@
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   #about {
-    height: 100vh;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, max-content);
 
     h1 {
       font-size: 32px;
@@ -186,12 +183,12 @@
       gap: 1rem;
 
       ul {
-        row-gap: 0.5rem;
+        row-gap: 2rem;
         column-gap: 4rem;
 
         img {
-          width: 45px;
-          height: 45px;
+          width: 50px;
+          height: 50px;
         }
       }
     }
