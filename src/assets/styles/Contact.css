@@ -33,7 +33,7 @@
       input::placeholder {
         font-family: 'DM Sans', sans-serif;
         color: #101820;
-        font-weight: 400;
+        font-weight: 100;
       }
 
       input,
@@ -42,7 +42,7 @@
         color: #101820;
         border: none;
         font-family: 'DM Sans', sans-serif;
-        font-weight: 400;
+        font-weight: 100;
         background-color: white;
       }
 
@@ -67,6 +67,11 @@
         button {
           width: max-content;
           cursor: pointer;
+          transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        button:hover {
+          transform: scale(0.96);
         }
       }
 
@@ -118,33 +123,28 @@
 
     #left-side,
     #right-side {
-      gap: 1rem;
-      padding: 1rem;
+      padding: 4rem 1rem;
     }
 
     #left-side {
+      gap: 1rem;
+
       form {
         gap: 1rem;
-
-        input,
-        textarea,
-        button {
-          border-radius: 0.25rem;
-        }
 
         #name-email-inputs {
           gap: 1rem;
 
           input {
-            width: 120px;
-            height: 35px;
+            width: 100px;
+            height: 30px;
             padding: 0 0.5rem;
           }
         }
 
         textarea {
           width: 100%;
-          height: 70px;
+          height: 50px;
           padding: 0.5rem;
         }
 
@@ -152,20 +152,26 @@
           gap: 1rem;
 
           #dividor {
-            height: 17.25px;
+            height: 15px;
           }
 
           button {
             width: 60px;
-            height: 35px;
+            height: 30px;
           }
         }
       }
     }
 
     #right-side {
+      gap: 2rem;
+
+      h1 {
+        text-align: center;
+      }
+
       ul {
-        gap: 1rem;
+        gap: 1.5rem;
 
         li {
           a {
@@ -189,7 +195,6 @@
 @media screen and (max-width: 379px) and (min-width: 321px) {
   #contact {
     grid-template-rows: repeat(2, 1fr);
-    height: 100vh;
 
     h1 {
       font-size: 28px;
@@ -197,33 +202,28 @@
 
     #left-side,
     #right-side {
-      gap: 1rem;
-      padding: 1rem;
+      padding: 4rem 1rem;
     }
 
     #left-side {
+      gap: 1rem;
+
       form {
         gap: 1rem;
-
-        input,
-        textarea,
-        button {
-          border-radius: 0.25rem;
-        }
 
         #name-email-inputs {
           gap: 1rem;
 
           input {
             width: 120px;
-            height: 35px;
+            height: 40px;
             padding: 0 0.5rem;
           }
         }
 
         textarea {
           width: 100%;
-          height: 70px;
+          height: 60px;
           padding: 0.5rem;
         }
 
@@ -231,20 +231,26 @@
           gap: 1rem;
 
           #dividor {
-            height: 17.25px;
+            height: 20px;
           }
 
           button {
             width: 60px;
-            height: 35px;
+            height: 40px;
           }
         }
       }
     }
 
     #right-side {
+      gap: 2rem;
+
+      h1 {
+        text-align: center;
+      }
+
       ul {
-        gap: 1rem;
+        gap: 1.5rem;
 
         li {
           a {
@@ -267,7 +273,6 @@
 
 @media screen and (max-width: 767px) and (min-width: 380px) {
   #contact {
-    height: 100vh;
     grid-template-rows: repeat(2, 1fr);
 
     h1 {
@@ -276,33 +281,28 @@
 
     #left-side,
     #right-side {
-      gap: 1rem;
-      padding: 1rem;
+      padding: 4rem 1rem;
     }
 
     #left-side {
+      gap: 1rem;
+
       form {
         gap: 1rem;
-
-        input,
-        textarea,
-        button {
-          border-radius: 0.25rem;
-        }
 
         #name-email-inputs {
           gap: 1rem;
 
           input {
             width: 160px;
-            height: 35px;
+            height: 40px;
             padding: 0 0.5rem;
           }
         }
 
         textarea {
           width: 100%;
-          height: 70px;
+          height: 80px;
           padding: 0.5rem;
         }
 
@@ -310,20 +310,26 @@
           gap: 1rem;
 
           #dividor {
-            height: 17.25px;
+            height: 20px;
           }
 
           button {
             width: 80px;
-            height: 35px;
+            height: 40px;
           }
         }
       }
     }
 
     #right-side {
+      gap: 2rem;
+
+      h1 {
+        text-align: center;
+      }
+
       ul {
-        gap: 1rem;
+        gap: 1.5rem;
 
         li {
           a {
@@ -344,44 +350,38 @@
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   #contact {
-    height: 100vh;
     grid-template-rows: repeat(2, 1fr);
 
     h1 {
-      font-size: 32px;
+      font-size: 36px;
     }
 
     #left-side,
     #right-side {
-      gap: 1rem;
-      padding: 1rem;
+      padding: 4rem 2rem;
     }
 
     #left-side {
+      gap: 1rem;
+
       form {
         gap: 1rem;
-
-        input,
-        textarea,
-        button {
-          border-radius: 0.25rem;
-        }
 
         #name-email-inputs {
           gap: 1rem;
 
           input {
-            width: 160px;
-            height: 35px;
+            width: 200px;
+            height: 40px;
             padding: 0 0.5rem;
           }
         }
 
         textarea {
           width: 100%;
-          height: 70px;
+          height: 100px;
           padding: 0.5rem;
         }
 
@@ -389,20 +389,26 @@
           gap: 1rem;
 
           #dividor {
-            height: 17.25px;
+            height: 20px;
           }
 
           button {
-            width: 80px;
-            height: 35px;
+            width: 100px;
+            height: 40px;
           }
         }
       }
     }
 
     #right-side {
+      gap: 2rem;
+
+      h1 {
+        text-align: center;
+      }
+
       ul {
-        gap: 1rem;
+        gap: 1.5rem;
 
         li {
           a {
@@ -412,10 +418,6 @@
               width: 23.2px;
               height: 23.2px;
             }
-
-            span {
-              font-size: 18px;
-            }
           }
         }
       }
@@ -423,7 +425,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   #contact {
     grid-template-columns: 60% 40%;
 

@@ -101,7 +101,7 @@ header {
 
     ul {
       display: grid;
-      grid-template-rows: repeat(5, max-content);
+      grid-template-rows: repeat(6, max-content);
       gap: 2rem;
       font-size: 18px;
 
@@ -205,7 +205,7 @@ header {
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   #menu-mobile {
     position: sticky;
     top: 0;
@@ -284,7 +284,7 @@ header {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   header {
     grid-template-columns: 60% 40%;
     position: sticky;
@@ -306,7 +306,7 @@ header {
       color: #fee715;
 
       ul {
-        grid-template-columns: repeat(3, max-content);
+        grid-template-columns: repeat(4, max-content);
         justify-content: center;
         gap: 2rem;
       }

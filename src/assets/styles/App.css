@@ -10,7 +10,7 @@
   transform: translateX(0);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .left-hidden {
     transform: translateX(-0.5rem);
   }
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   .left-hidden {
     transform: translateX(-1.5rem);
   }

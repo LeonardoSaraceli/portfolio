@@ -13,8 +13,9 @@ export default function Home() {
     <main id="home">
       <picture id="profile-icon">
         <img
-          src={window.innerWidth >= 1024 ? profileDesktop : profileMobile}
+          src={window.outerWidth >= 1280 ? profileDesktop : profileMobile}
           alt="Profile picture"
+          loading="lazy"
         />
       </picture>
 

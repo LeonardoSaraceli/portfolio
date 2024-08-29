@@ -60,7 +60,7 @@ export default function Header() {
 
   return (
     <>
-      <header id={window.innerWidth <= 1023 ? 'menu-mobile' : ''}>
+      <header id={window.outerWidth <= 1279 ? 'menu-mobile' : ''}>
         <nav>
           <ul>
             <li>
@@ -69,6 +69,10 @@ export default function Header() {
 
             <li>
               <a href="#about">{t('about')}</a>
+            </li>
+
+            <li>
+              <a href="#projects">{t('projects')}</a>
             </li>
 
             <li>
@@ -89,7 +93,7 @@ export default function Header() {
           </picture>
         </div>
 
-        {window.innerWidth < 1024 && (
+        {window.outerWidth < 1280 && (
           <FontAwesomeIcon
             icon={faBars}
             id="bars-icon"
@@ -116,6 +120,10 @@ export default function Header() {
             </li>
 
             <li onClick={() => setAsideVisible(false)}>
+              <a href="#projects">{t('projects')}</a>
+            </li>
+
+            <li onClick={() => setAsideVisible(false)}>
               <a href="#contact">{t('contact')}</a>
             </li>
 
@@ -123,7 +131,7 @@ export default function Header() {
               <FontAwesomeIcon icon={faFileArrowDown} className="icon" />
               <span>{t('resume')}</span>
             </li>
-            
+
             <li className="menu" onClick={toggleLanguage}>
               <FontAwesomeIcon icon={faGlobe} className="icon" />
               <span>{language === 'en' ? 'En' : 'Pt'}</span>

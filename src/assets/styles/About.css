@@ -61,11 +61,11 @@
 
     #left-side,
     #right-side {
-      padding: 1rem;
+      padding: 4rem 1rem;
     }
 
     #left-side {
-      gap: 0.5rem;
+      gap: 1rem;
     }
 
     #right-side {
@@ -76,8 +76,8 @@
         column-gap: 3rem;
 
         img {
-          width: 45px;
-          height: 45px;
+          width: 35px;
+          height: 35px;
         }
       }
     }
@@ -98,11 +98,11 @@
 
     #left-side,
     #right-side {
-      padding: 1rem;
+      padding: 4rem 1rem;
     }
 
     #left-side {
-      gap: 0.5rem;
+      gap: 1rem;
     }
 
     #right-side {
@@ -110,7 +110,7 @@
 
       ul {
         row-gap: 2rem;
-        column-gap: 4rem;
+        column-gap: 3rem;
 
         img {
           width: 40px;
@@ -135,15 +135,15 @@
 
     #left-side,
     #right-side {
-      padding: 1rem;
+      padding: 4rem 1rem;
     }
 
     #left-side {
-      gap: 0.5rem;
+      gap: 1rem;
     }
 
     #right-side {
-      gap: 1rem;
+      gap: 2rem;
 
       ul {
         row-gap: 2rem;
@@ -158,29 +158,25 @@
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   #about {
     grid-template-rows: repeat(2, max-content);
 
     h1 {
-      font-size: 32px;
-    }
-
-    p {
-      font-size: 18px;
+      font-size: 36px;
     }
 
     #left-side,
     #right-side {
-      padding: 2rem;
+      padding: 4rem;
     }
 
     #left-side {
-      gap: 0.5rem;
+      gap: 1rem;
     }
 
     #right-side {
-      gap: 1rem;
+      gap: 2rem;
 
       ul {
         row-gap: 2rem;
@@ -195,7 +191,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   #about {
     grid-template-columns: 60% 40%;
 
