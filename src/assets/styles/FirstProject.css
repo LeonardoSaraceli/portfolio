@@ -75,7 +75,7 @@
     ul {
       display: grid;
       gap: 1rem;
-      grid-template-columns: repeat(3, max-content);
+      grid-template-columns: repeat(3, 1fr);
 
       li {
         padding: 0.5rem;
@@ -83,6 +83,7 @@
         color: white;
         list-style-type: none;
         transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        text-align: center;
       }
 
       li:hover {

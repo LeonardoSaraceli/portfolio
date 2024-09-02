@@ -8,6 +8,7 @@ import {
   faXmark,
 } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from 'react-i18next'
+import leonardoLodiCV from '../assets/files/Leonardo Lodi CV.pdf'
 
 export default function Header() {
   const [asideVisible, setAsideVisible] = useState(false)
@@ -82,10 +83,12 @@ export default function Header() {
         </nav>
 
         <div id="header-btns">
-          <picture>
-            <FontAwesomeIcon icon={faFileArrowDown} className="header-icon" />
-            <span>{t('resume')}</span>
-          </picture>
+          <a href={leonardoLodiCV} download="Leonardo Lodi CV">
+            <picture>
+              <FontAwesomeIcon icon={faFileArrowDown} className="header-icon" />
+              <span>CV</span>
+            </picture>
+          </a>
 
           <picture onClick={toggleLanguage}>
             <FontAwesomeIcon icon={faGlobe} className="header-icon" />
@@ -127,10 +130,12 @@ export default function Header() {
               <a href="#contact">{t('contact')}</a>
             </li>
 
-            <li className="menu">
-              <FontAwesomeIcon icon={faFileArrowDown} className="icon" />
-              <span>{t('resume')}</span>
-            </li>
+            <a href={leonardoLodiCV} download="Leonardo Lodi CV">
+              <li className="menu">
+                <FontAwesomeIcon icon={faFileArrowDown} className="icon" />
+                <span>CV</span>
+              </li>
+            </a>
 
             <li className="menu" onClick={toggleLanguage}>
               <FontAwesomeIcon icon={faGlobe} className="icon" />

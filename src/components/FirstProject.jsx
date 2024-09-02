@@ -75,6 +75,10 @@ export default function FirstProject() {
 
         <ul className="right-hidden">
           <li>
+            <span>JavaScript</span>
+          </li>
+
+          <li>
             <span>React</span>
           </li>
 
@@ -84,6 +88,14 @@ export default function FirstProject() {
 
           <li>
             <span>PostgreSQL</span>
+          </li>
+
+          <li>
+            <span>Node.js</span>
+          </li>
+
+          <li>
+            <span>Prisma</span>
           </li>
         </ul>
       </section>

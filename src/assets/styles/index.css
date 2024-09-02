@@ -16,6 +16,11 @@ html {
 
 #root {
   display: grid;
+
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
 }
 
 @media screen and (max-width: 1279px) {
