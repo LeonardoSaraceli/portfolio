@@ -21,11 +21,11 @@ export default function Home() {
 
       <section id="left-side">
         <h1 className="left-hidden">
-          {language === 'en' ? t('full-stack') : t('web-developer')}
+          {language === 'en' ? t('full-stack') : t('developer')}
         </h1>
 
         <h2 className="left-hidden">
-          {language === 'en' ? t('web-developer') : t('full-stack')}
+          {language === 'en' ? t('developer') : t('full-stack')}
         </h2>
 
         <p className="left-hidden">{t('home-left-text')}</p>
