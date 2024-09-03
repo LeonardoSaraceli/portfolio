@@ -54,7 +54,7 @@ header {
     z-index: 1000;
     background-color: #101820;
     color: #fee715;
-    padding: 1rem;
+    padding: 0.5rem;
     justify-content: right;
 
     nav,
@@ -86,7 +86,7 @@ header {
     align-items: center;
     justify-items: center;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
 
     #x-mark {
       justify-self: right;
@@ -290,6 +290,10 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+
+    #bars-icon {
+      display: none;
+    }
 
     nav,
     #header-btns {

@@ -27,6 +27,8 @@
     "password": "GERENCIADOR",
     "manager": "DE SENHAS",
     "omniloq-description": "Criptografa todas as senhas, armazenando com segurança suas contas e logins. Crie e salve quantos itens desejar. Feito para ser usado em qualquer dispositivo, computador ou celular.",
-    "projects": "Projetos"
+    "projects": "Projetos",
+    "change-to": "Mudar para",
+    "view-resume": "Ver currículo"
   }
 }

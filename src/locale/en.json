@@ -27,6 +27,8 @@
     "password": "PASSWORD",
     "manager": "MANAGER",
     "omniloq-description": "Encrypts every password, safely storing your accounts and logins. Create and save how many items as you wish. Set to be used from any device, desktop or mobile.",
-    "projects": "Projects"
+    "projects": "Projects",
+    "change-to": "Change to",
+    "view-resume": "View Resume"
   }
 }

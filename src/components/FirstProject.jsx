@@ -20,7 +20,7 @@ export default function FirstProject() {
               target="_blank"
               className="link"
             >
-              <span>Front-end</span>
+              <span>Front end</span>
 
               <FontAwesomeIcon icon={faGithub} />
             </a>
@@ -30,7 +30,7 @@ export default function FirstProject() {
               target="_blank"
               className="link"
             >
-              <span>Back-end</span>
+              <span>Back end</span>
 
               <FontAwesomeIcon icon={faGithub} />
             </a>

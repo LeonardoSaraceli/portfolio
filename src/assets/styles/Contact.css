@@ -123,7 +123,7 @@
 
     #left-side,
     #right-side {
-      padding: 4rem 1rem;
+      padding: 4rem 0.5rem;
     }
 
     #left-side {
@@ -158,6 +158,7 @@
           button {
             width: 60px;
             height: 30px;
+            border-radius: 0.25rem;
           }
         }
       }
@@ -202,7 +203,7 @@
 
     #left-side,
     #right-side {
-      padding: 4rem 1rem;
+      padding: 4rem 0.5rem;
     }
 
     #left-side {
@@ -237,6 +238,7 @@
           button {
             width: 60px;
             height: 40px;
+            border-radius: 0.25rem;
           }
         }
       }
@@ -316,6 +318,7 @@
           button {
             width: 80px;
             height: 40px;
+            border-radius: 0.25rem;
           }
         }
       }
@@ -395,6 +398,7 @@
           button {
             width: 100px;
             height: 40px;
+            border-radius: 0.25rem;
           }
         }
       }

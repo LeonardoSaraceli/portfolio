@@ -15,10 +15,6 @@ article {
     grid-template-columns: 1fr auto;
     align-items: center;
 
-    h1 {
-      font-size: 28px;
-    }
-
     #x-mark {
       color: currentColor;
       cursor: pointer;
@@ -27,11 +23,41 @@ article {
 }
 
 #true {
-  background-color: #31473A;
-  color: #EDF4F2;
+  background-color: #31473a;
+  color: #edf4f2;
 }
 
 #false {
   background-color: #990011;
-  color: #FCF6F5;
+  color: #fcf6f5;
+}
+
+@media screen and (max-width: 379px) {
+  article {
+    div {
+      h1 {
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 380px) {
+  article {
+    div {
+      h1 {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  article {
+    div {
+      h1 {
+        font-size: 28px;
+      }
+    }
+  }
 }
