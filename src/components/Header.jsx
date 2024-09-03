@@ -97,7 +97,7 @@ export default function Header() {
           <picture onClick={toggleLanguage}>
             <FontAwesomeIcon icon={faGlobe} className="header-icon" />
             <span>
-              {t('change-to')} {language === 'en' ? 'Portuguese' : 'Inglês'}
+              {t('change-to')} {language === 'en' ? 'Pt' : 'En'}
             </span>
           </picture>
         </div>
