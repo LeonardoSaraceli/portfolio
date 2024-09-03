@@ -179,7 +179,7 @@ footer {
     }
 
     #footer-left-side {
-      padding: 4rem;
+      padding: 4rem 2rem;
 
       ul {
         gap: 2rem;
