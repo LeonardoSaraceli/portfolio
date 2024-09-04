@@ -497,3 +497,12 @@
     }
   }
 }
+
+@media screen and (min-width: 1400px) {
+  #contact {
+    #left-side,
+    #right-side {
+      padding: 8rem 4rem;
+    }
+  }
+}

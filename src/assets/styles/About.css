@@ -227,3 +227,12 @@
     }
   }
 }
+
+@media screen and (min-width: 1400px) {
+  #about {
+    #left-side,
+    #right-side {
+      padding: 8rem 4rem;
+    }
+  }
+}
