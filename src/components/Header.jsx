@@ -8,7 +8,7 @@ import {
   faXmark,
 } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from 'react-i18next'
-import leonardoLodiResume from '../LeonardoLodiResume.pdf'
+import leonardoLodiCV from '../LeonardoLodi_CV.pdf'
 
 export default function Header() {
   const [asideVisible, setAsideVisible] = useState(false)
@@ -84,20 +84,20 @@ export default function Header() {
 
         <div id="header-btns">
           <a
-            href={leonardoLodiResume}
+            href={leonardoLodiCV}
             target="_blank"
             rel="noopener noreferrer"
           >
             <picture>
               <FontAwesomeIcon icon={faFileArrowDown} className="header-icon" />
-              <span>{t('view-resume')}</span>
+              <span>CV</span>
             </picture>
           </a>
 
           <picture onClick={toggleLanguage}>
             <FontAwesomeIcon icon={faGlobe} className="header-icon" />
             <span>
-              {t('change-to')} {language === 'en' ? 'Pt' : 'En'}
+              {t('change-to')} {language === 'en' ? 'portuguese' : 'inglês'}
             </span>
           </picture>
         </div>
@@ -137,7 +137,7 @@ export default function Header() {
             </li>
 
             <a
-              href={leonardoLodiResume}
+              href={leonardoLodiCV}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -149,7 +149,7 @@ export default function Header() {
 
             <li className="menu" onClick={toggleLanguage}>
               <FontAwesomeIcon icon={faGlobe} className="icon" />
-              <span>{language === 'en' ? 'En' : 'Pt'}</span>
+              <span>{language === 'en' ? 'EN' : 'PT'}</span>
             </li>
           </ul>
         </aside>

@@ -8,7 +8,7 @@
     "home-left-text": "Você tem alguma ideia? Então vamos criá-la juntos!",
     "based-in": "Resido em",
     "me-in-a-nutshell": "SOBRE MIM",
-    "about-left-text": "Olá, sou Leonardo - um grande fã de xadrez e de tudo que é relacionado à tecnologia. Recentemente me formei no bootcamp intensivo de Desenvolvimento de Software Full-Stack no Boolean UK, onde ganhei experiência de trabalho em equipe e desenvolvi minhas habilidades em: JavaScript, React, Node.js, Express e PostgreSQL. Agora estou animado para encontrar um lugar onde possa continuar aprendendo, crescendo e contribuindo como desenvolvedor.",
+    "about-left-text": "Olá, sou Leonardo — um entusiasta do xadrez e amante da tecnologia. Recentemente, concluí um bootcamp intensivo de 6 meses em tempo integral na Boolean UK, dedicando mais de 1.000 horas para aprimorar minhas habilidades de desenvolvimento Full-Stack com JavaScript, React, Node.js, Express e PostgreSQL. Paralelamente ao meu trabalho freelancer, também participei de um projeto de 4 semanas que me proporcionou experiência prática com metodologias ágeis e Git. Agora estou animado para continuar aprendendo, crescendo e contribuindo como desenvolvedor em um ambiente dinâmico.",
     "tech-stack": "HABILIDADES",
     "get-in-touch": "ENTRE EM CONTATO",
     "name": "NOME",
@@ -28,7 +28,6 @@
     "manager": "DE SENHAS",
     "omniloq-description": "Criptografa todas as senhas, armazenando com segurança suas contas e logins. Crie e salve quantos itens desejar. Disponível para desktop e celular.",
     "projects": "Projetos",
-    "change-to": "Mudar para",
-    "view-resume": "Ver currículo"
+    "change-to": "Mudar para"
   }
 }

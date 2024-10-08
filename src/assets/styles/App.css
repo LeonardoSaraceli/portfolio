@@ -22,10 +22,10 @@
 
 @media screen and (min-width: 1280px) {
   .left-hidden {
-    transform: translateX(-1.5rem);
+    transform: translateX(-1rem);
   }
 
   .right-hidden {
-    transform: translateX(1.5rem);
+    transform: translateX(1rem);
   }
 }
