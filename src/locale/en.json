@@ -3,12 +3,12 @@
     "home": "Home",
     "about": "About",
     "contact": "Contact",
-    "full-stack": "FULL-STACK",
+    "full-stack": "FULL STACK",
     "developer": "DEVELOPER",
     "home-left-text": "Do you have any ideas? Let's bring them to life together!",
     "based-in": "Based in",
     "me-in-a-nutshell": "ME IN A NUTSHELL",
-    "about-left-text": "Hi, I'm Leonardo — a chess enthusiast and tech lover. I recently completed a 6-month, full-time intensive bootcamp at Boolean UK, dedicating over 1,000 hours to building my Full-Stack Development skills with JavaScript, React, Node.js, Express, and PostgreSQL. Alongside my freelance work, I also took part in a 4-week project that gave me hands-on experience with Agile methodologies and Git workflows. Now, I'm excited to keep learning, growing, and contributing as a developer in a dynamic environment.",
+    "about-left-text": "Hi, I'm Leonardo. I graduated from a 6-month, full-time intensive bootcamp at Boolean UK, where I dedicated over 1,000 hours to building my Full Stack Development skills with JavaScript, React, Node.js, Express.js, PostgreSQL, Next.js, and TypeScript. I'm currently working as a Full Stack Software Developer, contributing by designing, building, and maintaining web applications with PHP, JavaScript, and React, as well as customizing and maintaining Shopify applications using Liquid. I also develop and deploy mobile applications using Expo and React Native.",
     "tech-stack": "TECH STACK",
     "get-in-touch": "GET IN TOUCH",
     "name": "NAME",
@@ -28,6 +28,10 @@
     "manager": "MANAGER",
     "omniloq-description": "Encrypts every password, safely storing your accounts and logins. Create and save as many items you want. Available for desktop and mobile.",
     "projects": "Projects",
-    "change-to": "Change to"
+    "change-to": "Change to",
+    "repo": "Repository",
+    "wizard": "WORK",
+    "on": "MANAGEMENT",
+    "wizard-description": "Created for Wizard branches to manage and monitor their employees' work. Employees can register customers, and the company can easily access all data related to it." 
   }
 }

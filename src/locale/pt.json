@@ -3,12 +3,12 @@
     "home": "Início",
     "about": "Sobre",
     "contact": "Contato",
-    "full-stack": "FULL-STACK",
+    "full-stack": "FULL STACK",
     "developer": "DESENVOLVEDOR",
     "home-left-text": "Você tem alguma ideia? Então vamos criá-la juntos!",
     "based-in": "Resido em",
     "me-in-a-nutshell": "SOBRE MIM",
-    "about-left-text": "Olá, sou Leonardo — um entusiasta do xadrez e amante da tecnologia. Recentemente, concluí um bootcamp intensivo de 6 meses em tempo integral na Boolean UK, dedicando mais de 1.000 horas para aprimorar minhas habilidades de desenvolvimento Full-Stack com JavaScript, React, Node.js, Express e PostgreSQL. Paralelamente ao meu trabalho freelancer, também participei de um projeto de 4 semanas que me proporcionou experiência prática com metodologias ágeis e Git. Agora estou animado para continuar aprendendo, crescendo e contribuindo como desenvolvedor em um ambiente dinâmico.",
+    "about-left-text": "Olá, sou o Leonardo. Me formei em um bootcamp intensivo de 6 meses e tempo integral na Boolean UK, onde dediquei mais de 1.000 horas aprimorando minhas habilidades em desenvolvimento Full Stack com JavaScript, React, Node.js, Express.js, PostgreSQL, Next.js e TypeScript. Atualmente, trabalho como Desenvolvedor de Software Full Stack, contribuindo no design, desenvolvimento e manutenção de aplicações web com PHP, JavaScript e React, além de customizar e manter aplicações Shopify utilizando Liquid. Também desenvolvo e implanto aplicativos móveis usando Expo e React Native.",
     "tech-stack": "HABILIDADES",
     "get-in-touch": "ENTRE EM CONTATO",
     "name": "NOME",
@@ -28,6 +28,10 @@
     "manager": "DE SENHAS",
     "omniloq-description": "Criptografa todas as senhas, armazenando com segurança suas contas e logins. Crie e salve quantos itens desejar. Disponível para desktop e celular.",
     "projects": "Projetos",
-    "change-to": "Mudar para"
+    "change-to": "Mudar para",
+    "repo": "Repositório",
+    "wizard": "GERENCIADOR",
+    "on": "DE TRABALHO",
+    "wizard-description": "Criado para que as filiais da Wizard possam gerenciar e monitorar o trabalho de seus funcionários. Os funcionários podem cadastrar clientes, e a empresa pode acessar facilmente todos os dados relacionados a ele." 
   }
 }

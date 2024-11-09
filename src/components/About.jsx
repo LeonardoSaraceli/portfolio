@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import '../assets/styles/About.css'
-import css from '../assets/images/css.svg'
+import css from '../assets/images/nextjs.svg'
 import express from '../assets/images/express.svg'
 import git from '../assets/images/git.svg'
-import html from '../assets/images/html.svg'
+import html from '../assets/images/typescript.svg'
 import javascript from '../assets/images/javascript.svg'
 import node from '../assets/images/node.svg'
 import postgresql from '../assets/images/postgresql.svg'

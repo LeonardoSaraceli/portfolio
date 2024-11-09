@@ -6,6 +6,7 @@ import Header from './Header'
 import Home from './Home'
 import '../assets/styles/App.css'
 import FirstProject from './FirstProject'
+import SecondProject from './SecondProject'
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,8 @@ function App() {
       <About />
 
       <FirstProject />
+
+      <SecondProject />
 
       <Contact />
 

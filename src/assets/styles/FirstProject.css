@@ -20,9 +20,9 @@
       justify-content: space-between;
       align-items: center;
 
-      #project-links {
+      #project-links,
+      #project-links-second {
         display: grid;
-        grid-template-columns: repeat(3, max-content);
         gap: 1rem;
 
         .link {
@@ -47,10 +47,19 @@
           color: white;
         }
       }
+
+      #project-links {
+        grid-template-columns: repeat(3, max-content);
+      }
+
+      #project-links-second {
+        grid-template-columns: repeat(2, max-content);
+      }
     }
 
     img {
       width: 100%;
+      max-width: 914px;
       max-height: 500px;
       object-fit: contain;
       transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
