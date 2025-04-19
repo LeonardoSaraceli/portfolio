@@ -8,7 +8,7 @@
     "home-left-text": "Do you have any ideas? Let's bring them to life together!",
     "based-in": "Based in",
     "me-in-a-nutshell": "ME IN A NUTSHELL",
-    "about-left-text": "Hi, I'm Leonardo. I graduated from a 6-month, full-time intensive bootcamp at Boolean UK, where I dedicated over 1,000 hours to building my Full Stack Development skills with JavaScript, React, Node.js, Express.js, PostgreSQL, Next.js, and TypeScript. I'm currently working as a Full Stack Software Developer, contributing by designing, building, and maintaining web applications with PHP, JavaScript, and React, as well as customizing and maintaining Shopify applications using Liquid. I also develop and deploy mobile applications using Expo and React Native.",
+    "about-left-text": "Hi, I'm Leonardo, a full-stack software developer with a background from Boolean UK's 1,000+ hour bootcamp. I currently work at Bydas, focusing on e-commerce platforms with technologies like JavaScript, React, Node.js, PHP, and Shopify's Liquid. I'm also building AlgaID, a mobile app for algae identification, where I've led front-end development with React Native, API design in PHP, database setup in SQLite, and machine learning integration using Python and Google Cloud Vertex AI. I'm always exploring new tools like Next.js, Docker, and Java — and outside of coding, I'm passionate about chess.",
     "tech-stack": "TECH STACK",
     "get-in-touch": "GET IN TOUCH",
     "name": "NAME",
@@ -32,6 +32,6 @@
     "repo": "Repository",
     "wizard": "WORK",
     "on": "MANAGEMENT",
-    "wizard-description": "Created for Wizard branches to manage and monitor their employees' work. Employees can register customers, and the company can easily access all data related to it." 
+    "wizard-description": "Created for Wizard branches to manage and monitor their employees' work. Employees can register customers, and the company can easily access all data related to it."
   }
 }

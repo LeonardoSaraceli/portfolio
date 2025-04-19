@@ -8,7 +8,7 @@
     "home-left-text": "Você tem alguma ideia? Então vamos criá-la juntos!",
     "based-in": "Resido em",
     "me-in-a-nutshell": "SOBRE MIM",
-    "about-left-text": "Olá, sou o Leonardo. Me formei em um bootcamp intensivo de 6 meses e tempo integral na Boolean UK, onde dediquei mais de 1.000 horas aprimorando minhas habilidades em desenvolvimento Full Stack com JavaScript, React, Node.js, Express.js, PostgreSQL, Next.js e TypeScript. Atualmente, trabalho como Desenvolvedor de Software Full Stack, contribuindo no design, desenvolvimento e manutenção de aplicações web com PHP, JavaScript e React, além de customizar e manter aplicações Shopify utilizando Liquid. Também desenvolvo e implanto aplicativos móveis usando Expo e React Native.",
+    "about-left-text": "Olá, sou Leonardo, um desenvolvedor de software full-stack com experiência adquirida no bootcamp de mais de 1.000 horas da Boolean UK. Atualmente, trabalho na Bydas, com foco em plataformas de e-commerce com tecnologias como JavaScript, React, Node.js, PHP e Liquid, da Shopify. Também estou desenvolvendo o AlgaID, um aplicativo mobile para identificação de algas, onde liderei o desenvolvimento front-end com React Native, design de API em PHP, configuração de banco de dados em SQLite e integração de aprendizado de máquina usando Python e Google Cloud Vertex AI. Estou sempre explorando novas ferramentas como Next.js, Docker e Java — e, além de programar, sou apaixonado por xadrez.",
     "tech-stack": "HABILIDADES",
     "get-in-touch": "ENTRE EM CONTATO",
     "name": "NOME",
@@ -32,6 +32,6 @@
     "repo": "Repositório",
     "wizard": "GERENCIADOR",
     "on": "DE TRABALHO",
-    "wizard-description": "Criado para que as filiais da Wizard possam gerenciar e monitorar o trabalho de seus funcionários. Os funcionários podem cadastrar clientes, e a empresa pode acessar facilmente todos os dados relacionados a ele." 
+    "wizard-description": "Criado para que as filiais da Wizard possam gerenciar e monitorar o trabalho de seus funcionários. Os funcionários podem cadastrar clientes, e a empresa pode acessar facilmente todos os dados relacionados a ele."
   }
 }
