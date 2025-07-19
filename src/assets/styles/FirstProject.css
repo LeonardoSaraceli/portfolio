@@ -49,7 +49,8 @@
       }
 
       #project-links {
-        grid-template-columns: repeat(3, max-content);
+        grid-auto-columns: max-content;
+        grid-auto-flow: column
       }
 
       #project-links-second {

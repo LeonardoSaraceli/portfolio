@@ -33,7 +33,7 @@
       input::placeholder {
         font-family: 'DM Sans', sans-serif;
         color: #101820;
-        font-weight: 100;
+        font-weight: 400;
       }
 
       input,
@@ -42,7 +42,7 @@
         color: #101820;
         border: none;
         font-family: 'DM Sans', sans-serif;
-        font-weight: 100;
+        font-weight: 400;
         background-color: white;
       }
 

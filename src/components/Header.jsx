@@ -8,7 +8,7 @@ import {
   faXmark,
 } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from 'react-i18next'
-import leonardoLodiCV from '../LeonardoLodiCV.pdf'
+import leonardoLodiCV from '../Leonardo Lodi CV.pdf'
 
 export default function Header() {
   const [asideVisible, setAsideVisible] = useState(false)

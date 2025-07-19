@@ -95,7 +95,7 @@ export default function Contact() {
             <li>
               <a href="tel:+351914137935" target="_blank">
                 <FontAwesomeIcon icon={faPhone} className="contact-icon" />
-                <span>+351 914-137-935</span>
+                <span>+351 914 137 935</span>
               </a>
             </li>
           </ul>

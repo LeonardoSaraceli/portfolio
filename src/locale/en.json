@@ -8,7 +8,7 @@
     "home-left-text": "Do you have any ideas? Let's bring them to life together!",
     "based-in": "Based in",
     "me-in-a-nutshell": "ME IN A NUTSHELL",
-    "about-left-text": "Hi, I'm Leonardo, a full-stack software developer with a background from Boolean UK's 1,000+ hour bootcamp. I currently work at Bydas, focusing on e-commerce platforms with technologies like JavaScript, React, Node.js, PHP, and Shopify's Liquid. I'm also building AlgaID, a mobile app for algae identification, where I've led front-end development with React Native, API design in PHP, database setup in SQLite, and machine learning integration using Python and Google Cloud Vertex AI. I'm always exploring new tools like Next.js, Docker, and Java — and outside of coding, I'm passionate about chess.",
+    "about-left-text": "Hi, my name is Leonardo, I'm a software developer with a strong foundation in full stack, where I honed my skills through an intensive bootcamp at Boolean. Since then, I've been contributing to the development of mobile apps, web applications and AI/ML projects, including work with CNN models. My main tech stack includes JavaScript, React, Node.js, Express.js and PostgreSQL.",
     "tech-stack": "TECH STACK",
     "get-in-touch": "GET IN TOUCH",
     "name": "NAME",
@@ -23,15 +23,18 @@
     "fail": "Fail",
     "message-sent": "Your message was sent",
     "message-not-sent": "Something went wrong",
-    "live-app": "Live app",
+    "live-app": "Live App",
     "password": "PASSWORD",
     "manager": "MANAGER",
     "omniloq-description": "Encrypts every password, safely storing your accounts and logins. Create and save as many items you want. Available for desktop and mobile.",
     "projects": "Projects",
     "change-to": "Change to",
-    "repo": "Repository",
+    "repo": "Code Repository",
     "wizard": "WORK",
     "on": "MANAGEMENT",
-    "wizard-description": "Created for Wizard branches to manage and monitor their employees' work. Employees can register customers, and the company can easily access all data related to it."
+    "wizard-description": "Created for Wizard branches to manage and monitor their employees' work. Employees can register customers, and the company can easily access all data related to it.",
+    "children": "CHILDREN",
+    "event": "EVENTS",
+    "allegrow-description": "Built a SaaS platform that connects children's event providers with parents."
   }
 }

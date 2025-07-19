@@ -1,42 +1,21 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import omniloqDesktop from '../assets/images/omniloq-desktop.png'
+import omniloqDesktop from '../assets/images/allegrow-frontend.vercel.app.png'
 import '../assets/styles/FirstProject.css'
 import { useTranslation } from 'react-i18next'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-export default function FirstProject() {
+export default function ThirdProject() {
   const { t } = useTranslation()
 
   return (
     <main className="first-project" id="projects">
       <section id="left-side">
         <div id="project-name" className="left-hidden">
-          <h1>OMNILOQ</h1>
+          <h1>Allegrow</h1>
 
           <div id="project-links">
             <a
-              href="https://github.com/LeonardoSaraceli/omniloq-frontend"
-              target="_blank"
-              className="link"
-            >
-              <span>Front End</span>
-
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-
-            <a
-              href="https://github.com/LeonardoSaraceli/omniloq-backend"
-              target="_blank"
-              className="link"
-            >
-              <span>Back End</span>
-
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-
-            <a
-              href="https://omniloq-frontend.vercel.app/"
+              href="https://allegrow-frontend.vercel.app/"
               target="_blank"
               className="link"
             >
@@ -49,7 +28,7 @@ export default function FirstProject() {
 
         <a
           className="left-hidden"
-          href="https://omniloq-frontend.vercel.app/"
+          href="https://allegrow-frontend.vercel.app/"
           target="_blank"
         >
           <img src={omniloqDesktop} alt="Omniloq desktop" loading="lazy" />
@@ -65,13 +44,13 @@ export default function FirstProject() {
 
         {window.outerWidth > 1279 && (
           <>
-            <h1 className="right-hidden">{t('password')}</h1>
+            <h1 className="right-hidden">{t('children')}</h1>
 
-            <h2 className="right-hidden">{t('manager')}</h2>
+            <h2 className="right-hidden">{t('event')}</h2>
           </>
         )}
 
-        <p className="right-hidden">{t('omniloq-description')}</p>
+        <p className="right-hidden">{t('allegrow-description')}</p>
 
         <ul className="right-hidden">
           <li>
@@ -92,10 +71,6 @@ export default function FirstProject() {
 
           <li>
             <span>Node.js</span>
-          </li>
-
-          <li>
-            <span>Prisma ORM</span>
           </li>
         </ul>
       </section>

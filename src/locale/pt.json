@@ -8,7 +8,7 @@
     "home-left-text": "Você tem alguma ideia? Então vamos criá-la juntos!",
     "based-in": "Resido em",
     "me-in-a-nutshell": "SOBRE MIM",
-    "about-left-text": "Olá, sou Leonardo, um desenvolvedor de software full-stack com experiência adquirida no bootcamp de mais de 1.000 horas da Boolean UK. Atualmente, trabalho na Bydas, com foco em plataformas de e-commerce com tecnologias como JavaScript, React, Node.js, PHP e Liquid, da Shopify. Também estou desenvolvendo o AlgaID, um aplicativo mobile para identificação de algas, onde liderei o desenvolvimento front-end com React Native, design de API em PHP, configuração de banco de dados em SQLite e integração de aprendizado de máquina usando Python e Google Cloud Vertex AI. Estou sempre explorando novas ferramentas como Next.js, Docker e Java — e, além de programar, sou apaixonado por xadrez.",
+    "about-left-text": "Olá, meu nome é Leonardo, sou um desenvolvedor de software com uma base sólida em full stack, onde aperfeiçoei minhas habilidades por meio de um bootcamp intensivo na Boolean. Desde então, tenho contribuído para o desenvolvimento de aplicativos mobile, aplicativos web e projetos de IA/ML, incluindo trabalho com modelos CNN. Minha stack principal inclui JavaScript, React, Node.js, Express.js e PostgreSQL.",
     "tech-stack": "HABILIDADES",
     "get-in-touch": "ENTRE EM CONTATO",
     "name": "NOME",
@@ -25,13 +25,16 @@
     "message-not-sent": "Algo deu errado",
     "live-app": "Aplicativo",
     "password": "GERENCIADOR",
-    "manager": "DE SENHAS",
+    "children": "EVENTOS",
     "omniloq-description": "Criptografa todas as senhas, armazenando com segurança suas contas e logins. Crie e salve quantos itens desejar. Disponível para desktop e celular.",
     "projects": "Projetos",
     "change-to": "Mudar para",
-    "repo": "Repositório",
+    "repo": "Repositório de Código",
     "wizard": "GERENCIADOR",
     "on": "DE TRABALHO",
-    "wizard-description": "Criado para que as filiais da Wizard possam gerenciar e monitorar o trabalho de seus funcionários. Os funcionários podem cadastrar clientes, e a empresa pode acessar facilmente todos os dados relacionados a ele."
+    "wizard-description": "Criado para que as filiais da Wizard possam gerenciar e monitorar o trabalho de seus funcionários. Os funcionários podem cadastrar clientes, e a empresa pode acessar facilmente todos os dados relacionados a ele.",
+    "event": "INFANTIS",
+    "manager": "DE SENHAS",
+    "allegrow-description": "Plataforma SaaS construída para conectar provedores de eventos infantis com pais."
   }
 }

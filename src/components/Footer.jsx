@@ -28,7 +28,7 @@ export default function Footer() {
 
           <li>
             <a
-              href="https://www.linkedin.com/in/leonardo-saraceli-almeida-lodi/"
+              href="https://www.linkedin.com/in/leolodi/"
               target="_blank"
             >
               <FontAwesomeIcon icon={faLinkedinIn} className="footer-icon" />
